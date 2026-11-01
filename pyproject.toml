@@ -1,0 +1,18 @@
+[project]
+name = "hybrid-retrieval-hnsw-semantic-chunking"
+version = "0.1.0"
+description = "A production-grade RAG pipeline using HNSW indexing alongside Semantic and Agentic text chunking."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pymupdf>=1.24.0",
+    "unstructured>=0.12.0",
+    "langchain-experimental>=0.0.50",
+    "langchain-huggingface>=0.0.1",
+    "sentence-transformers>=3.0.0",
+    "chromadb>=0.4.24",
+    "openai>=1.12.0",
+    "requests>=2.31.0",
+    "pillow>=10.2.0",
+    "ipykernel>=6.29.0"
+]
